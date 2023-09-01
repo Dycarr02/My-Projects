@@ -1,0 +1,139 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #ddd;
+}
+
+.sign-in-up {
+    display: flex;
+    align-items: center;
+}
+
+.sign-in-up a {
+    text-decoration: none;
+    color: white;
+    background-color: #333;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.sign-in-up a:hover {
+    background-color: #555;
+}
+
+.search-filter {
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-filter input[type="text"] {
+    padding: 8px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+#category-filter {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white; 
+}
+
+h1 {
+    text-align: center;
+    color: black; 
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: white; 
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    margin-top: 10px;
+    background-color: #007bff; 
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.deal {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
