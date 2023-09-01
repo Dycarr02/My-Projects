@@ -33,6 +33,7 @@
 
 <main>
     <?php
+    //testing 1 2 3
     $host = "localhost";
     $dbname = "dcarr10";
     $username = "root";
